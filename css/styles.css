@@ -269,6 +269,8 @@ button:focus {
 
 .footer {
   background-color: var(--main-bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
@@ -350,15 +352,16 @@ button:focus {
 
 .project-list-item {
   width: 370px;
-}
-
-.project-list-item {
   margin: 15px;
+
+  border: 1px solid #EEEEEE;
 }
 
 .project-text {
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .project-title {
@@ -367,6 +370,8 @@ button:focus {
   line-height: 2;
   letter-spacing: 0.06em;
 
+
+  padding-top: 20px;
   color: var(--heading);
 }
 
